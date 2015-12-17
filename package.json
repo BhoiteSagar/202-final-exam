@@ -1,0 +1,24 @@
+{
+  "name": "finalexam",
+  "version": "1.0.0",
+  "description": "Nodejs app with mysql connection for CMPE202 final exam",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhoiteSagar/202-final-exam.git"
+  },
+  "author": "Sagar Bhoite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhoiteSagar/202-final-exam/issues"
+  },
+  "homepage": "https://github.com/BhoiteSagar/202-final-exam#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mysql": "^2.10.0"
+  }
+}
